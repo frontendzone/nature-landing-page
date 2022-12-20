@@ -9,6 +9,55 @@
     <link rel="icon" type="image/x-icon" href="/images/fav.png" />
   </head>
   <body>
+    <div class="navbar">
+      <h1 class="logo">LOGO</h1>
+      <ul class="nav_list">
+        <li>About</li>
+        <li>Services</li>
+        <li>Clients</li>
+        <li>Contact</li>
+      </ul>
+
+      <img
+        src="/images/menu.png"
+        alt="menu_icon"
+        class="menu"
+        height="25px"
+        onclick="openNav()"
+      />
+    </div>
+
+    <div class="main">
+      <div class="text">
+        <h1 class="first">A quick trip</h1>
+        <h1 class="second">Into Nature</h1>
+        <h4>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+          nobis ex. Quam quasi quos ratione culpa rem. Odio doloribus molestias
+          facilis maxime assumenda libero quae at tempora repellendus
+          laboriosam, reiciendis ipsum? Numquam reiciendis molestias a?
+        </h4>
+        <button class="button">See More</button>
+      </div>
+
+      <div class="img">
+        <img src="/images/illustration.png" alt="illustration" class="img" />
+      </div>
+    </div>
+
+    <div class="overlay" id="myNav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+        &times;
+      </a>
+
+      <div class="overlay_content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
